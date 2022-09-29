@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: georgia, cambria, 
+    times new roman, calibri;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid grey;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+.logo {
+    margin: auto;
+    margin-left: 40px;
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sub {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    margin: 30px;
+    font-weight: bold;
+}
+
+nav {
+    padding: 8px;
+}
+
+.sub:hover {
+    color: blue;
+}
+
+.image {
+    width: 100%;
+    opacity: 0.4;
+    margin-top: 0;
+    object-fit: cover;
+    height: 450px;
+}
+
+.image-cover {
+    background-color: black;
+    position: absolute;
+    height: 50px;
+    top: 57px;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    display: block;
+}
+
+.parent {
+    margin-top: 510px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 0 150px 0 150px;
+}
+
+.parent > div {
+    border: 2px solid grey;
+    width: 380px;
+    min-height: 200px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 6px 5px grey;
+}
+
+div h2 {
+    text-align: center;
+    color: rgb(78, 76, 76);   
+    margin-top: 20px;
+}
+
+div p {
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+    padding: 20px 30px 0 30px;
+    line-height: 25px;
+}
+
+.parent1 {
+    background-color: navy;
+    min-height: 380px;
+    position: relative;
+    z-index: -1;
+}
+
+#text {
+    color: white;
+    text-align: left;
+    text-align: justify;
+    margin-left: 10px;
+    padding-right: 800px;
+    font-family: calibri;
+    font-size: 24px;
+}
+
+.training {
+    color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.view {
+    background-color: rgb(154, 3, 3);
+    border: none;
+    color: white;
+    margin-left: 40px;
+    padding: 20px;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.view:hover {
+    background-color: rgb(111, 130, 111);
+}
+
+.house {
+    background-color: white;
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    width: 430px;
+    height: 296px;
+}
+
+#context {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.image2 {
+    background-color: wheat;
+    width: 430px;
+    height: 296px;
+    margin-top: 20px;
+    margin-left: 20px;   
+}
+
+#man {
+    width: 400px;
+    margin-left: 14px;
+    margin-top: 15px;
+}
+
+.parent2 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#more-content {
+    margin-left: 0;
+    padding-right: 400px;
+    text-align: left;
+    text-align: justify;
+    padding-left: 0;
+    font-family: calibri;
+}
+
+.more-info {
+    font-family: calibri;
+}
+
+#learn {
+    font-family: calibri;
+}
